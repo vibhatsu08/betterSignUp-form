@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+:root {
+    --buttonColor: #F55C0A;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Beau Rivage', cursive;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: row wrap;
+}
+
+.background-picture {
+    width: 100vw;
+    height: 30vh;
+}
+
+/* left side */
+.picture > img{
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+    border-radius: 50px;
+}
+
+/* right side */
+.right {
+    width: 60vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.left {
+    padding-left: 3vw;
+}
+
+.dummy-text {
+    font-size: 4rem;
+    text-transform: capitalize;
+    width: 90%;
+}
+
+/* form section */
+.form {
+
+}
